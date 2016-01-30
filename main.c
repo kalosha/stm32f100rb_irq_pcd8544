@@ -72,7 +72,6 @@ int main(void) {
 	while (1) {
 //		PCD8544_RST_HIGH;
 //		board_delay_ms(100);
-//		board_delay_ms(1);
 		board_led_toggle(b_led_blue);
 #ifdef LCD_TEST
 		PCD8544_Write(PCD8544_DATA,_char++);
